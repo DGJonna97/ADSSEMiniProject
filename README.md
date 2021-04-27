@@ -1,4 +1,4 @@
-# ADSSE_mini_project
+# ADSSE mini project
 This is my github containing the scripts used in my report.
 
 The repository contains two python files. The main.py is used to execute the hash functions, where it is possible to choose between the division method, multiplication method and universal method.
