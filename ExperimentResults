@@ -1,0 +1,101 @@
+The running times and wrong space requirements of the functions.
+
+---------------------------------------------------------------------------------------------
+disney-voice-actors
+
+Division + chaining: Time: 1.7910487651824951 sec - Space requirements: 0.15264129638671875 MB
+
+\vspace{\baselineskip}
+
+Multiplication + chaining: Time: 1.3902883529663086 sec - Space requirements: 0.15264129638671875 MB
+
+\vspace{\baselineskip}
+
+Universal + chaining: Time: 2.292015790939331 sec - Space requirements: 0.15264129638671875 MB
+
+\vspace{\baselineskip}
+
+Division + open addressing = linear: Time: 2.184880495071411 sec - Space requirements: 0.15264129638671875 MB
+
+\vspace{\baselineskip}
+
+Multiplication + open addressing = linear: Time: 1.2801454067230225 sec - Space requirements: 0.15264129638671875 MB 
+
+\vspace{\baselineskip}
+
+Universal + open addressing = linear: Time: 2.4723269939422607 sec - Space requirements: 0.15264129638671875 MB
+
+\vspace{\baselineskip}
+
+Division + open addressing = quadratic: Time: 2.014758825302124 sec - Space requirements: 0.15264129638671875 MB
+
+\vspace{\baselineskip}
+
+Multiplication + open addressing = quadratic: Time: 1.4552357196807861 sec - Space requirements: 0.15264129638671875 MB
+
+\vspace{\baselineskip}
+
+Universal + open addressing = quadratic: Time: 2.332770824432373 sec - Space requirements: 0.15264129638671875 MB
+
+\vspace{\baselineskip}
+
+Division + open addressing = double hashing: Time: 1.7999887466430664 sec - Space requirements: 0.15264129638671875 MB
+
+\vspace{\baselineskip}
+
+Multiplication + open addressing = double hashing: Time: 1.5092971324920654 sec - Space requirements: 0.15264129638671875 MB
+
+\vspace{\baselineskip}
+
+Universal + open addressing = double hashing: Time: 2.1223816871643066 sec - Space requirements: 0.15264129638671875 MB
+
+---------------------------------------------------------------------------------------------
+
+$Video_Games$
+
+Division + chaining: Time: 11.550369024276733 sec - Space requirements: 0.15264129638671875 MB
+
+\vspace{\baselineskip}
+
+Multiplication + chaining: Time: 5.062151670455933 sec - Space requirements: 0.15264129638671875 MB
+
+\vspace{\baselineskip}
+
+Universal + chaining: Time: 18.43656849861145 sec - Space requirements: 0.15264129638671875 MB
+
+\vspace{\baselineskip}
+
+Division + open addressing = linear: Time: 24.633036613464355 sec - Space requirements: 0.15264129638671875 MB
+
+\vspace{\baselineskip}
+
+Multiplication + open addressing = linear: Time: 5.1922667026519775 sec - Space requirements: 0.15264129638671875 MB
+
+\vspace{\baselineskip}
+
+Universal + open addressing = linear: Time: 23.273200035095215 sec - Space requirements: 0.15264129638671875 MB
+
+\vspace{\baselineskip}
+
+Division + open addressing = quadratic: Time: 15.172117710113525 sec - Space requirements: 0.15264129638671875 MB
+
+\vspace{\baselineskip}
+
+Multiplication + open addressing = quadratic: Time: 48.50814938545227 sec - Space requirements: 0.15264129638671875 MB
+
+\vspace{\baselineskip}
+
+Universal + open addressing = quadratic: Time: 21.44528365135193 sec - Space requirements: 0.15264129638671875 MB
+
+\vspace{\baselineskip}
+
+Division + open addressing = double hashing: Time: 18.899568557739258 sec - Space requirements: 0.15264129638671875 MB
+
+\vspace{\baselineskip}
+
+Multiplication + open addressing = double hashing: Time: 9.70698595046997 sec - Space requirements: 0.15264129638671875 MB
+
+\vspace{\baselineskip}
+
+Universal + open addressing = double hashing: Time: 25.356670379638672 sec - Space requirements: 0.15264129638671875 MB
+---------------------------------------------------------------------------------------------
