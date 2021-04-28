@@ -12,9 +12,9 @@ import sys
 # The probeType variable defines the probe type, when using open addressing.
 # The different operations are: Linear, Quadratic, and DoubleHashing.
 hash_table = hash_table.HashTable(20000, 
-                              method = "DivisionMethod", 
-                              collisionType = "OpenAddressing", 
-                              probeType = "DoubleHashing")
+                              method = "MultiplicationMethod", 
+                              collisionType = "Chaining", 
+                              probeType = "Linear")
 
 # The two datasets are Video_Games.csv and disney-voice-actors.csv
 # To change the dataset, then in line 18 define the dataset by writing one of the two datasets mentioned the line above.
@@ -26,10 +26,12 @@ with open('datasets/Video_Games.csv', mode='r', encoding="utf8") as csv_file:
         if row is not None:
             if line_count == 0:
                 line_count += 1
-            # The key is set to provide a random key value between 0 and 3500 for each Name element
+            # The key is set to provide a random key value between 0 and 3500 for each Name element.
+            # The value variable when using the Video_games.csv files should be set to Name.
+            # The value variable when using the disney-voice-actors.csv files should be set to voice-actor.
             hash_table.Insert(key = np.random.randint(0, 3500), value = row["Name"])
             line_count += 1
-    hash_table.print()
+    #hash_table.print()
     m = hash_table.size
     n = line_count
     alpha = n/m
@@ -41,9 +43,5 @@ with open('datasets/Video_Games.csv', mode='r', encoding="utf8") as csv_file:
     print("-"*50)
     print("U:" ,line_count, "elements")
     print("-"*50)
-    print("Loading time for one element:", alpha)
-    print("-"*50)
-    print("Search, insert, delete time:", (1 / (1 - alpha)), "sec")
-    print("-"*50)
-    print("Space requirements:", (sys.getsizeof(hash_table.table))/(1024*1024), "megabytes")
+    print("Space requirements:", (sys.getsizeof(hash_table.table))/(1024*1024), "MB")
     print("-"*50)
